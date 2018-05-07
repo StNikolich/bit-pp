@@ -1,0 +1,76 @@
+@import "variables";
+@import "mixin";
+
+
+
+body {
+    margin: $default;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #e3f2fd;
+}
+
+.container {
+    width: 960px;
+    margin: $default;
+}
+
+h1 {
+    padding: $padd;
+    text-align: center;
+    background: $primeColor;
+    color: white;
+}
+
+h2 {
+    margin-bottom: 0px;
+    padding-left: 10px;
+    text-align: left;
+    background: $primeColor;
+    color: white;
+    font-family: $fontx;
+}
+
+img {
+    height: 400px;
+    margin: 40px auto 40px;
+    display: block;
+}
+
+table {
+    width: 100%;
+    color: #333;
+    background: white;
+    border-collapse: collapse;
+
+    tr {
+        border-bottom: 1px solid #eee;
+    }
+    
+    td {
+        padding: 5px 0;
+
+        &:first-child {
+            width: 300px;
+            padding-left: 10px;
+        }
+    }
+
+    
+
+}
+
+
+
+p#footer {
+    margin-top: 100px;
+}
+
+
+h1 {
+    @include text-shadow($tshadow);
+}
+
+img {
+    @include box-shadow($boxshadow);
+}
