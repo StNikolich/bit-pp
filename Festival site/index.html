@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Festival</title>
+
+</head>
+
+<body>
+    <fieldset>
+        <h1>Movie List</h1>
+        <form>
+            <fieldset>
+                <label>Title
+                <input type="text" class="movie-title" placeholder="Title">
+               </label>
+               <label>Length
+                <input type="number" class="movie-length" placeholder="Length">
+                 </label>
+                 <label>
+                <select class="dropdown">
+                    <option value="-">-</option>
+                    <option value="Action">Action</option>
+                    <option value="Drama">Drama</option>
+                    <option value="Crime">Crime</option>
+                    <option value="Comedy">Comedy</option>
+                    <option value="Horor">Horor</option>
+                </select>
+               </label>
+                <input type="button" value="Add Movie" onclick="createMovie" class="AddMovieButton">
+                <div class="movie-list">
+
+                    </div>
+            </fieldset>
+            <h1>Program</h1>
+            <fieldset>
+                <label>Date
+                    <input type="date" class="program-date" placeholder="Date">
+                </label>
+                <label>
+                        <input type="button" value="Create Program" onclick="" class="AddProgramButton">
+
+                </label>
+                <div class="listDate">
+
+                </div>
+                
+                <hr>
+                <label>Movie
+                    
+                </label>
+            </fieldset>
+    </fieldset>
+    </form>
+    
+    
+    <script type="text/javascript" src="./js/form.js"></script>
+    <script type="text/javascript" src="./js/entities.js"></script>
+</body>
+
+</html>

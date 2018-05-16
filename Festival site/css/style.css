@@ -1,0 +1,40 @@
+*{
+    padding: 5px;
+}
+
+input {
+    display: block;
+    width: 98%;
+    height: 40px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.dropdown {
+    display: block;
+    width: 98%;
+    height: auto;
+    background-color: rgb(231, 231, 231);
+
+}
+label {
+    padding-left: 0px;
+}
+.AddMovieButton {
+    background-color: rgb(19, 139, 19);
+    color: white;
+    border: 3px solid rgb(22, 142, 223);
+    border-radius: 5px;
+    
+}
+.AddProgramButton{
+    background-color: rgb(19, 139, 19);
+    color: white;
+    border: 3px solid rgb(22, 142, 223);
+    border-radius: 5px;
+}
+
+hr{
+    width: 98%;
+    
+    padding: 0px;
+}
