@@ -1,0 +1,42 @@
+header {
+  color: white;
+  background-color: #343a40;
+  margin-bottom: 13px; }
+
+h2 {
+  text-align: center;
+  margin-bottom: 13px;
+  font-family: Courier New, Courier, monospace; }
+
+.pic {
+  margin-bottom: 13px;
+  margin-top: 13px; }
+
+footer {
+  color: white;
+  background-color: #343a40;
+  text-align: center;
+  padding-top: 20px;
+  height: 50px; }
+
+footer p {
+  font-size: 10px; }
+
+div.card {
+  margin: 0 auto; }
+
+.sekula {
+  text-align: center;
+  padding: 10px 0; }
+
+.jelena {
+  width: 100%; }
+
+.details {
+  padding: 10px 0; }
+
+.info-footer {
+  height: 70px;
+  padding-top: 26px; }
+
+/*# sourceMappingURL=style.css.map */

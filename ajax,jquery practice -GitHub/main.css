@@ -25,3 +25,16 @@ div{
 div img{
     width: 300px;
 }
+label p {
+    font-family: Courier New, Courier, monospace;
+    color: rgb(94, 193, 226);
+}
+input {
+    border: 3px dashed lightblue;
+    border-radius: 13px;
+    width: 200px;
+}
+
+label {
+    
+}
